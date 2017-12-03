@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#455a64" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#90a4ae"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:text="Display full TIme Table" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#90a4ae"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:text="Display Todays Time Table" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#90a4ae"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:text="Display your periods" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ToggleButton
+            android:id="@+id/tb1"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:text="ToggleButton"
+            android:textOff="OFF"
+            android:textOn="ON" />
+            
+            <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:text="ALARM :"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
